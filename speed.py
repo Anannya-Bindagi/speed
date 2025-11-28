@@ -10,8 +10,8 @@ if __name__ == "__main__":
           distance = int(sys.argv[1])
           time = int(sys.argv[2])
         else:
-            distance = int(input("Enter the distance covered:"))
-            time = int(input("Enter the time taken:"))
+            distance = input("Enter the distance covered:")
+            time = input("Enter the time taken:")
             if distance < 0:
                  print("Invalid! the distance cannot be in negative")
             #result
